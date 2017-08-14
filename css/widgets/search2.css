@@ -1,0 +1,150 @@
+.ldgxRentalSearchWidget {
+    margin: 0;
+    padding: 0 0.1em;
+}
+
+.ldgxRentalSearchDivArrival {
+    position: relative;
+}
+
+.ldgxRentalSearchDatepickerTrigger {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    height: 1em;
+}
+
+.ldgxRentalSearchResultsTooltip .lxtContainer {
+    padding: 4px;
+}
+
+.ldgxRentalSearchResultsTooltip .lxtClose {
+    display: none;
+}
+
+.ldgxRentalSearchWidget .ldgxRentalSearchDiv {
+    margin: 0.5em 0;
+    padding: 0 0.1em;
+    line-height: normal;
+}
+
+.ldgxRentalSearchWidget .ldgxRentalSearchDiv div {
+    margin: 0;
+}
+
+.ldgxRentalSearchWidget .ldgxRentalSearchDiv input,
+.ldgxRentalSearchWidget .ldgxRentalSearchDiv select,
+.ldgxRentalSearchWidget .ldgxRentalSearchDiv button,
+.ldgxRentalSearchWidget .ldgxRentalSearchDiv label
+{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 1.5em;
+    vertical-align: middle;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+.ldgxRentalSearchWidget .ldgxRentalSearchDiv input[type="text"],
+.ldgxRentalSearchWidget .ldgxRentalSearchDiv button
+{
+    border-width: thin;
+    border-radius: 3px;
+    padding: 0 0.5em;
+}
+
+.ldgxRentalSearchWidget .ldgxRentalSearchDiv select,
+.ldgxRentalSearchWidget .ldgxRentalSearchDiv input[type="text"],
+.ldgxRentalSearchWidget .ldgxRentalSearchDiv button
+{
+    border-color: #efefef;
+    border-width: 2px;
+    height: 30px;
+    font-size: 1.1em;
+}
+
+.ldgxRentalSearchWidget .ldgxRentalSearchDivSubmit button {
+    font: inherit;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: #0082c0;
+    border-radius: 4px;
+    border-width: 0;
+}
+
+.ldgxRentalSearchWidgetVertical {
+    max-width: 312px;
+}
+
+.ldgxRentalSearchWidgetVertical .ldgxRentalSearchDiv {
+    display: block;
+    text-align: left;
+}
+
+.ldgxRentalSearchWidgetVertical .ldgxRentalSearchDiv input[type="text"],
+.ldgxRentalSearchWidgetVertical .ldgxRentalSearchDiv select,
+.ldgxRentalSearchWidgetVertical .ldgxRentalSearchDiv button
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.ldgxRentalSearchWidgetHorizontal .ldgxRentalSearchDiv {
+    display: inline-block;
+}
+
+.ldgxRentalSearchWidgetHorizontal .ldgxRentalSearchDivArrival input {
+    width: 7em;
+}
+
+.ldgxRentalSearchWidgetHorizontal .ldgxRentalSearchDiv .ldgxRentalSearchAmenity {
+    display: inline-block;
+    padding: 0 0.2em;
+}
+
+.ldgxRentalSearchWidgetHorizontal .ldgxRentalSearchDivId input {
+    width: 10em;
+}
+
+@-moz-keyframes ldgxRainbow {
+    from { background-position:top left; }
+    to {background-position:top right; }
+}
+@-webkit-keyframes ldgxRainbow {
+    from { background-position:top left; }
+    to { background-position:top right; }
+}
+@-o-keyframes ldgxRainbow {
+    from { background-position:top left; }
+    to { background-position:top right; }
+}
+@-ms-keyframes ldgxRainbow {
+    from { background-position:top left; }
+    to { background-position:top right; }
+}
+@-khtml-keyframes ldgxRainbow {
+    from { background-position:top left; }
+    to { background-position:top right; }
+}
+@keyframes ldgxRainbow {
+    from { background-position:top left; }
+    to { background-position:top right; }
+}
+.ldgxRainbowAnimation {
+    background-image: -webkit-linear-gradient(left, #049ae1, #0082c0, #0082c0, #049ae1);
+    background-image: -moz-linear-gradient(left, #049ae1, #0082c0, #0082c0, #049ae1);
+    background-image: -o-linear-gradient(left, #049ae1, #0082c0, #0082c0, #049ae1);
+    background-image: -ms-linear-gradient(left, #049ae1, #0082c0, #0082c0, #049ae1);
+    background-image: -khtml-linear-gradient(left, #049ae1, #0082c0, #0082c0, #049ae1);
+    background-image: linear-gradient(left, #049ae1, #0082c0, #0082c0, #049ae1);
+    -moz-animation: ldgxRainbow 2.5s forwards linear infinite;
+    -webkit-animation: ldgxRainbow 2.5s forwards linear infinite;
+    -o-animation: ldgxRainbow 2.5s forwards linear infinite;
+    -khtml-animation: ldgxRainbow 2.5s forwards linear infinite;
+    -ms-animation: ldgxRainbow 2.5s forwards linear infinite;
+    -lynx-animation: ldgxRainbow 2.5s forwards linear infinite;
+    animation: ldgxRainbow 2.5s forwards linear infinite;
+    background-size: 50% auto;
+}

@@ -1,0 +1,73 @@
+#lodgix_vc_content_grid a {
+    color: #bc4339;
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    text-decoration: underline;
+}
+
+#lodgix_vc_content_grid .property_title a {
+    font-family: eb-garamond, serif;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+#lodgix_vc_content_grid .property_title a:hover {
+    color: #bc4339;
+    font-family: eb-garamond, serif;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+#lodgix_vc_content_grid .property_div_logix.property {
+    float: left;
+    margin-bottom: 40px;
+    overflow: visible;
+    padding: 0 10px;
+    width: 30%;
+}
+
+#lodgix_vc_content_grid .property_div_logix.nofloat {
+    float: none;
+}
+
+#lodgix_vc_content_grid .new-row {
+    clear: left;
+}
+
+#lodgix_vc_content_grid .property_image .property_overview_thumb img {
+    height: auto;
+    width: 100%;
+}
+
+#lodgix_vc_content_grid ul.wpp_overview_data .description {
+    font-size: 14px;
+    font-style: italic;
+}
+
+#lodgix_vc_content_grid .property_div_logix.property ul {
+    list-style: outside none none;
+    margin: 0;
+}
+
+#lodgix_vc_content_grid ul.wpp_overview_data li {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 5px;
+}
+
+#lodgix_vc_content_grid h2 {
+    clear: both;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333333;
+    font-family: "Noto Sans", sans-serif;
+    margin-bottom: 15px;
+}
+
+#lodgix_daily_rates,
+#lodgix_weekly_rates,
+#lodgix_monthly_rates,
+#lodgix_bedrooms,
+#lodgix_location {
+    font-size: 13px !important;
+}

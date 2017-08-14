@@ -1,0 +1,242 @@
+.ldgxInventorySort {
+    margin-bottom: 15px;
+}
+
+.ldgxShadow {
+    margin: 5px 10px 10px 5px;
+    padding: 5px;
+    border: 1px solid #eee;
+    box-shadow: 2px 2px 8px 0 #666;
+}
+
+.ldgxListingImg,
+.ldgxListingFullSizeImg
+{
+    text-align: center;
+}
+
+.ldgxListingImg img,
+.ldgxListingFullSizeImg img
+{
+    margin-bottom: 7px;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .ldgxListingImg {
+        position: relative;
+        z-index: 1;
+        float: left;
+        margin-right: 7px;
+        width: 237px;
+    }
+}
+
+.ldgxSlashBtn {
+    display: inline-block;
+    border-radius: 5px;
+    background: #d4cfb4;
+    white-space: nowrap;
+}
+
+.ldgxSlashBtn a {
+    display: inline-block;
+    padding: 10px 0 10px 15px;
+    font: bold 14px 'Open Sans', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.ldgxSlashBtn a:hover {
+    color: #fff;
+}
+
+.ldgxSlashBtn .ldgxSlashBtnR {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 35px;
+    padding-right: 15px;
+    background: linear-gradient(105deg, transparent 20px, #8cc2d8 10px, #8cc2d8 100%);
+}
+
+.ldgxListingImg .ldgxSlashBtnWrap,
+.ldgxListingFullSizeImg .ldgxSlashBtnWrap
+{
+    margin: 0 0 7px 0;
+}
+
+.ldgxListingName,
+.ldgxListingFullSizeName
+{
+    padding-left: 7px;
+    background: #eee;
+}
+
+.ldgxListingName a,
+.ldgxListingFullSizeName a
+{
+    font: bold 18px Verdana, sans-serif;
+    color: #9f1314;
+    text-decoration: underline;
+    white-space: nowrap;
+}
+
+.ldgxListingBody,
+.ldgxListingFullSizeBody
+{
+    background: #f7f7f7;
+    font: 12px Verdana, sans-serif;
+}
+
+.ldgxListingArea {
+    padding-left: 7px;
+}
+
+.ldgxListingDesc {
+    font: 14px "Maven Pro", sans-serif;
+    color: #5f5e5e;
+}
+
+@media (max-width: 767px) {
+    .ldgxListingDesc {
+        overflow-y: visible;
+        height: auto;
+    }
+}
+
+.lodgixTextExpanderShadow {
+    border: 14px solid transparent;
+    border-right-color: #9cf;
+    border-bottom-color: #9cf;
+}
+
+.lodgixTextExpanderWrapper {
+    padding: 7px;
+    min-height: 114px;
+}
+
+.lodgixTextExpander {
+    box-sizing: border-box;
+    padding: 4px;
+    width: 20px;
+    height: 20px;
+    color: #960;
+    font: bold 14px Arial, sans-serif;
+    text-align: right;
+    cursor: pointer;
+}
+
+.ldgxListingSeparator {
+    clear: both;
+}
+
+.ldgxListingFeatCell {
+    margin: 2px 1px;
+    height: 33px;
+    line-height: 33px;
+    padding: 0 2px;
+    background: #ebebeb;
+    text-align: center;
+    vertical-align: middle;
+    font-family: "Maven Pro", sans-serif;
+    font-size: 12px;
+    color: #5f5e5e;
+    white-space: nowrap;
+}
+
+.ldgxListingFeatDaily {
+    background: #ddd;
+}
+
+.ldgxListingFeatWeekly {
+    background: #cfcfcf;
+}
+
+.ldgxListingFeatMonthly {
+    background: #c2c2c2;
+}
+
+.ldgxPetsYes,
+.ldgxPetsNo
+{
+    height: 33px;
+    background: transparent no-repeat scroll 50% 50%;
+    background-size: 25px;
+}
+
+.ldgxPetsYesOld {
+    background-image: url(../icons/old/pets.gif);
+}
+.ldgxPetsNoOld {
+    background-image: url(../icons/old/pets-no.gif);
+}
+
+.ldgxPetsYesCircle {
+    background-image: url(../icons/circle/pets.png);
+}
+.ldgxPetsNoCircle {
+    background-image: url(../icons/circle/pets-no.png);
+}
+
+.ldgxPetsYesFilled {
+    background-image: url(../icons/filled/pets.png);
+}
+.ldgxPetsNoFilled {
+    background-image: url(../icons/filled/pets-no.png);
+}
+
+.ldgxPetsYesGradientColor {
+    background-image: url(../icons/gradient-color/pets.png);
+}
+.ldgxPetsNoGradientColor {
+    background-image: url(../icons/gradient-color/pets-no.png);
+}
+
+.ldgxPetsYesGradientGray {
+    background-image: url(../icons/gradient-gray/pets.png);
+}
+.ldgxPetsNoGradientGray {
+    background-image: url(../icons/gradient-gray/pets-no.png);
+}
+
+.ldgxPetsYesOutlined {
+    background-image: url(../icons/outlined/pets.png);
+}
+.ldgxPetsNoOutlined {
+    background-image: url(../icons/outlined/pets-no.png);
+}
+
+.ldgxPetsYesSquaredColor {
+    background-image: url(../icons/squared-color/pets.png);
+}
+.ldgxPetsNoSquaredColor {
+    background-image: url(../icons/squared-color/pets-no.png);
+}
+
+.ldgxPetsYesSquaredGray {
+    background-image: url(../icons/squared-gray/pets.png);
+}
+.ldgxPetsNoSquaredGray {
+    background-image: url(../icons/squared-gray/pets-no.png);
+}
+
+.ldgxListingButs {
+    text-align: center;
+}
+
+.ldgxListingButsBlock1 {
+    display: inline;
+    margin: 0 20px;
+}
+
+.ldgxListingButsBlock2 {
+    display: inline;
+    white-space: nowrap;
+}
+
+.ldgxListingButs a {
+    display: inline-block;
+    margin: 7px 5px 3px 5px;
+}

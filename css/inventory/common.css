@@ -1,0 +1,20 @@
+.ldgxInventoryContainer {
+    margin: 0 5px 0 0;
+    min-height: 530px !important;
+    height: auto;
+    padding: 0;
+    color: #000;
+    font: 11px Tahoma, Verdana, Arial, sans-serif;
+    width: 100%;
+}
+
+.ldgxInventoryContainer a {
+    font-family: Verdana, Tahoma, Arial, sans-serif;
+    color: #bc4339;
+    text-decoration: underline;
+    white-space: normal;
+}
+
+.ldgxInventoryContainer a:hover {
+    color: #015571;
+}

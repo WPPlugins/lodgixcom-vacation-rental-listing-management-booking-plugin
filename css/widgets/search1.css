@@ -1,0 +1,74 @@
+.lodgix-search-properties {
+    width: auto;
+}
+
+.lodgix-search-properties .lodgix-custom-search-listing {
+    width: 210px;
+    background: #E8E8E8 url(../../images/feat-bg.png) repeat-x;
+    border: 1px solid #E0E0E0;
+    padding: 10px;
+    margin-bottom: 15px;
+    -moz-box-shadow: 3px 3px 5px #999;
+    -webkit-box-shadow: 3px 3px 5px #999;
+    box-shadow: 3px 3px 5px #999;
+    filter: progid: DXImageTransform.Microsoft.Shadow(color="#969696", Direction=135, Strength=3);
+    zoom: 1;
+}
+
+.lodgix-search-properties .lodgix-custom-search-listing tr {
+    background: transparent;
+}
+
+.lodgix-search-properties .lodgix-custom-search-listing input {
+    background-color: #FFFFFF;
+}
+
+.lodgix-search-properties .lodgix-custom-search-listing #lodgix-custom-search-results {
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px dotted #666666;
+    width: 98%;
+}
+
+.lodgix-custom-search-listing tr,
+.lodgix-custom-search-listing th,
+.lodgix-custom-search-listing td {
+    padding: 0;
+}
+
+.lodgix-custom-search-listing input[readonly] {
+    cursor: default;
+}
+
+.lodgix-custom-search-amenities-list {
+    margin-bottom: 8px;
+}
+
+.lodgix-search-properties .lodgix-custom-search-listing .lodgix-custom-search-amenities {
+    margin: 0;
+    vertical-align: baseline;
+}
+
+#lodgix-custom-search-button {
+    background: none repeat scroll 0 0 #666666 !important;
+    border: medium none !important;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    font-family: Arial, Tahoma, Verdana, sans-serif;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    margin: 0;
+    padding: 5px 7px !important;
+    text-decoration: none;
+    text-transform: none;
+    width: auto !important;
+}
+
+#lodgix-custom-search-button:hover {
+    background: none repeat scroll 0 0 #000000 !important;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+

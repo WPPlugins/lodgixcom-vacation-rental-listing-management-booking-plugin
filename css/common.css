@@ -1,0 +1,210 @@
+.lodgix_check_availability_icon {
+    background: url(../images/Lodgix200x50.png) no-repeat scroll center center transparent;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.ldgxButton {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: transparent no-repeat scroll 50% 50%;
+    background-size: 50px;
+    text-decoration: none;
+}
+
+.ldgxButtonMedium {
+    width: 36px;
+    height: 36px;
+    background-size: 36px;
+}
+
+.ldgxButtonSmall {
+    width: 25px;
+    height: 25px;
+    background-size: 25px;
+}
+
+.ldgxButtonMapOld {
+    background-image: url(icons/old/map.png);
+}
+.ldgxButtonMapCircle {
+    background-image: url(icons/circle/map.png);
+}
+.ldgxButtonMapFilled {
+    background-image: url(icons/filled/map.png);
+}
+.ldgxButtonMapGradientColor {
+    background-image: url(icons/gradient-color/map.png);
+}
+.ldgxButtonMapGradientGray {
+    background-image: url(icons/gradient-gray/map.png);
+}
+.ldgxButtonMapOutlined {
+    background-image: url(icons/outlined/map.png);
+}
+.ldgxButtonMapSquaredColor {
+    background-image: url(icons/squared-color/map.png);
+}
+.ldgxButtonMapSquaredGray {
+    background-image: url(icons/squared-gray/map.png);
+}
+
+.ldgxButtonMailOld {
+    background-image: url(icons/old/mail.png);
+}
+.ldgxButtonMailCircle {
+    background-image: url(icons/circle/mail.png);
+}
+.ldgxButtonMailFilled {
+    background-image: url(icons/filled/mail.png);
+}
+.ldgxButtonMailGradientColor {
+    background-image: url(icons/gradient-color/mail.png);
+}
+.ldgxButtonMailGradientGray {
+    background-image: url(icons/gradient-gray/mail.png);
+}
+.ldgxButtonMailOutlined {
+    background-image: url(icons/outlined/mail.png);
+}
+.ldgxButtonMailSquaredColor {
+    background-image: url(icons/squared-color/mail.png);
+}
+.ldgxButtonMailSquaredGray {
+    background-image: url(icons/squared-gray/mail.png);
+}
+
+.ldgxButtonVideoOld {
+    background-image: url(icons/old/video.png);
+}
+.ldgxButtonVideoCircle {
+    background-image: url(icons/circle/video.png);
+}
+.ldgxButtonVideoFilled {
+    background-image: url(icons/filled/video.png);
+}
+.ldgxButtonVideoGradientColor {
+    background-image: url(icons/gradient-color/video.png);
+}
+.ldgxButtonVideoGradientGray {
+    background-image: url(icons/gradient-gray/video.png);
+}
+.ldgxButtonVideoOutlined {
+    background-image: url(icons/outlined/video.png);
+}
+.ldgxButtonVideoSquaredColor {
+    background-image: url(icons/squared-color/video.png);
+}
+.ldgxButtonVideoSquaredGray {
+    background-image: url(icons/squared-gray/video.png);
+}
+
+.ldgxButtonTourOld {
+    background-image: url(icons/old/tour.png);
+}
+.ldgxButtonTourCircle {
+    background-image: url(icons/circle/tour.png);
+}
+.ldgxButtonTourFilled {
+    background-image: url(icons/filled/tour.png);
+}
+.ldgxButtonTourGradientColor {
+    background-image: url(icons/gradient-color/tour.png);
+}
+.ldgxButtonTourGradientGray {
+    background-image: url(icons/gradient-gray/tour.png);
+}
+.ldgxButtonTourOutlined {
+    background-image: url(icons/outlined/tour.png);
+}
+.ldgxButtonTourSquaredColor {
+    background-image: url(icons/squared-color/tour.png);
+}
+.ldgxButtonTourSquaredGray {
+    background-image: url(icons/squared-gray/tour.png);
+}
+
+.ldgxButtonPetsNoOld {
+    background-image: url(icons/old/pets-no.png);
+}
+.ldgxButtonPetsNoCircle {
+    background-image: url(icons/circle/pets-no.png);
+}
+.ldgxButtonPetsNoFilled {
+    background-image: url(icons/filled/pets-no.png);
+}
+.ldgxButtonPetsNoGradientColor {
+    background-image: url(icons/gradient-color/pets-no.png);
+}
+.ldgxButtonPetsNoGradientGray {
+    background-image: url(icons/gradient-gray/pets-no.png);
+}
+.ldgxButtonPetsNoOutlined {
+    background-image: url(icons/outlined/pets-no.png);
+}
+.ldgxButtonPetsNoSquaredColor {
+    background-image: url(icons/squared-color/pets-no.png);
+}
+.ldgxButtonPetsNoSquaredGray {
+    background-image: url(icons/squared-gray/pets-no.png);
+}
+
+.ldgxButtonSmokeNoOld {
+    background-image: url(icons/old/smoke-no.png);
+}
+.ldgxButtonSmokeNoCircle {
+    background-image: url(icons/circle/smoke-no.png);
+}
+.ldgxButtonSmokeNoFilled {
+    background-image: url(icons/filled/smoke-no.png);
+}
+.ldgxButtonSmokeNoGradientColor {
+    background-image: url(icons/gradient-color/smoke-no.png);
+}
+.ldgxButtonSmokeNoGradientGray {
+    background-image: url(icons/gradient-gray/smoke-no.png);
+}
+.ldgxButtonSmokeNoOutlined {
+    background-image: url(icons/outlined/smoke-no.png);
+}
+.ldgxButtonSmokeNoSquaredColor {
+    background-image: url(icons/squared-color/smoke-no.png);
+}
+.ldgxButtonSmokeNoSquaredGray {
+    background-image: url(icons/squared-gray/smoke-no.png);
+}
+
+.ldgxButtonReviewOld {
+    background-image: url(icons/old/review.png);
+}
+.ldgxButtonReviewCircle {
+    background-image: url(icons/circle/review.png);
+}
+.ldgxButtonReviewFilled {
+    background-image: url(icons/filled/review.png);
+}
+.ldgxButtonReviewGradientColor {
+    background-image: url(icons/gradient-color/review.png);
+}
+.ldgxButtonReviewGradientGray {
+    background-image: url(icons/gradient-gray/review.png);
+}
+.ldgxButtonReviewOutlined {
+    background-image: url(icons/outlined/review.png);
+}
+.ldgxButtonReviewSquaredColor {
+    background-image: url(icons/squared-color/review.png);
+}
+.ldgxButtonReviewSquaredGray {
+    background-image: url(icons/squared-gray/review.png);
+}
+
+.ldgxPowered {
+    margin: 20px 0;
+    text-align: center;
+    font-size: 10px;
+    clear: left;
+}

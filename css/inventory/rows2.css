@@ -1,0 +1,526 @@
+.ldgxInventoryTheme2 .ldgxInventorySort {
+    margin: 0 0 20px 0;
+    font: 14px 'Open Sans', sans-serif;
+    color: #504740;
+    text-align: right;
+}
+
+.ldgxInventoryTheme2 .ldgxShadow {
+    margin: 0 0 30px 0;
+    padding: 0 0 10px 0;
+    border: 0;
+    border-bottom: 1px solid #c6c3ae;
+    box-shadow: none;
+    font-family: inherit;
+}
+
+.ldgxInventoryTheme2 .ldgxListingImg,
+.ldgxInventoryTheme2 .ldgxListingFullSizeImg
+{
+    text-align: center;
+}
+
+.ldgxInventoryTheme2 .ldgxListingImg img,
+.ldgxInventoryTheme2 .ldgxListingFullSizeImg img
+{
+    display: block;
+    margin-bottom: 20px;
+    border: 6px solid #bdbdbd;
+    width: 100%;
+    height: auto;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+    .ldgxInventoryTheme2 .ldgxListingImg {
+        position: relative;
+        z-index: 1;
+        float: left;
+        margin-right: 16px;
+        width: 237px;
+    }
+}
+
+.ldgxInventoryTheme2 .ldgxSlashBtn {
+    display: inline-block;
+    border-radius: 5px;
+    background: #d4cfb4;
+    white-space: nowrap;
+}
+
+.ldgxInventoryTheme2 .ldgxSlashBtn a {
+    display: inline-block;
+    padding: 10px 0 10px 15px;
+    font: bold 14px 'Open Sans', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.ldgxInventoryTheme2 .ldgxSlashBtn a:hover {
+    color: #fff;
+}
+
+.ldgxInventoryTheme2 .ldgxSlashBtn .ldgxSlashBtnR {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-left: 35px;
+    padding-right: 15px;
+    background: linear-gradient(105deg, transparent 20px, #8cc2d8 10px, #8cc2d8 100%);
+}
+
+.ldgxInventoryTheme2 .ldgxListingImg .ldgxSlashBtnWrap,
+.ldgxInventoryTheme2 .ldgxListingFullSizeImg .ldgxSlashBtnWrap
+{
+    margin: 20px 0;
+}
+
+.ldgxInventoryTheme2 .ldgxListingName,
+.ldgxInventoryTheme2 .ldgxListingFullSizeName
+{
+    margin-bottom: 10px;
+    padding: 0;
+    background: none;
+}
+
+.ldgxInventoryTheme2 .ldgxListingName a,
+.ldgxInventoryTheme2 .ldgxListingFullSizeName a
+{
+    font: bold 22px 'Open Sans Condensed', sans-serif;
+    color: #0d0b08;
+    text-decoration: none;
+    text-transform: none;
+    white-space: normal;
+}
+
+.ldgxInventoryTheme2 .ldgxListingName a:hover,
+.ldgxInventoryTheme2 .ldgxListingFullSizeName a:hover
+{
+    text-decoration: underline;
+}
+
+.ldgxInventoryTheme2 .ldgxListingBody,
+.ldgxInventoryTheme2 .ldgxListingFullSizeBody
+{
+    background: transparent;
+    font: 14px 'Open Sans', sans-serif;
+    color: #504740;
+}
+
+@media (min-width: 768px) {
+    .ldgxInventoryTheme2 .ldgxListingName,
+    .ldgxInventoryTheme2 .ldgxListingBody
+    {
+        padding-left: 256px;
+    }
+}
+
+.ldgxInventoryTheme2 .ldgxListingArea {
+    padding: 0;
+    line-height: 160%;
+}
+
+.ldgxInventoryTheme2 .ldgxListingDesc {
+    font: 14px "Maven Pro", sans-serif;
+    color: #5f5e5e;
+    line-height: 160% !important;
+}
+
+@media (max-width: 767px) {
+    .ldgxInventoryTheme2 .ldgxListingDesc {
+        overflow-y: visible;
+        height: auto;
+    }
+}
+
+.ldgxInventoryTheme2 .lodgixTextExpanderShadow {
+    border: 14px solid transparent;
+    border-right-color: #8cc2d8;
+    border-bottom-color: #8cc2d8;
+    border-bottom-right-radius: 5px;
+}
+
+.ldgxInventoryTheme2 .lodgixTextExpanderWrapper {
+    padding: 0 7px 7px 0;
+    min-height: 114px;
+}
+
+.ldgxInventoryTheme2 .lodgixTextExpander {
+    box-sizing: border-box;
+    padding: 4px;
+    width: 20px;
+    height: 20px;
+    color: #fff;
+    font: bold 14px Arial, sans-serif;
+    text-align: right;
+    cursor: pointer;
+}
+
+.ldgxInventoryTheme2 .ldgxListingSeparator {
+    clear: both;
+    margin: 20px 0 0 0;
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeats {
+    clear: both;
+    margin-top: 10px;
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatCellWrap {
+    margin-bottom: 15px;
+    padding: 0 10px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatsIcons .ldgxListingFeatCellWrap {
+    margin-bottom: 20px;
+    height: 40px;
+    padding: 0 20px 0 50px;
+    background: transparent no-repeat scroll 0 0;
+    background-size: 40px;
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsCircle .ldgxListingFeatCellBeds {
+    background-image: url(../icons/circle/beds.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsFilled .ldgxListingFeatCellBeds {
+    background-image: url(../icons/filled/beds.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientColor .ldgxListingFeatCellBeds {
+    background-image: url(../icons/gradient-color/beds.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientGray .ldgxListingFeatCellBeds {
+    background-image: url(../icons/gradient-gray/beds.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsOutlined .ldgxListingFeatCellBeds {
+    background-image: url(../icons/outlined/beds.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredColor .ldgxListingFeatCellBeds {
+    background-image: url(../icons/squared-color/beds.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredGray .ldgxListingFeatCellBeds {
+    background-image: url(../icons/squared-gray/beds.png);
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsCircle .ldgxListingFeatCellBaths {
+    background-image: url(../icons/circle/baths.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsFilled .ldgxListingFeatCellBaths {
+    background-image: url(../icons/filled/baths.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientColor .ldgxListingFeatCellBaths {
+    background-image: url(../icons/gradient-color/baths.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientGray .ldgxListingFeatCellBaths {
+    background-image: url(../icons/gradient-gray/baths.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsOutlined .ldgxListingFeatCellBaths {
+    background-image: url(../icons/outlined/baths.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredColor .ldgxListingFeatCellBaths {
+    background-image: url(../icons/squared-color/baths.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredGray .ldgxListingFeatCellBaths {
+    background-image: url(../icons/squared-gray/baths.png);
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsCircle .ldgxListingFeatCellGuests {
+    background-image: url(../icons/circle/guests.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsFilled .ldgxListingFeatCellGuests {
+    background-image: url(../icons/filled/guests.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientColor .ldgxListingFeatCellGuests {
+    background-image: url(../icons/gradient-color/guests.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientGray .ldgxListingFeatCellGuests {
+    background-image: url(../icons/gradient-gray/guests.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsOutlined .ldgxListingFeatCellGuests {
+    background-image: url(../icons/outlined/guests.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredColor .ldgxListingFeatCellGuests {
+    background-image: url(../icons/squared-color/guests.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredGray .ldgxListingFeatCellGuests {
+    background-image: url(../icons/squared-gray/guests.png);
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsCircle .ldgxListingFeatCellType {
+    background-image: url(../icons/circle/type.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsFilled .ldgxListingFeatCellType {
+    background-image: url(../icons/filled/type.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientColor .ldgxListingFeatCellType {
+    background-image: url(../icons/gradient-color/type.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientGray .ldgxListingFeatCellType {
+    background-image: url(../icons/gradient-gray/type.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsOutlined .ldgxListingFeatCellType {
+    background-image: url(../icons/outlined/type.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredColor .ldgxListingFeatCellType {
+    background-image: url(../icons/squared-color/type.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredGray .ldgxListingFeatCellType {
+    background-image: url(../icons/squared-gray/type.png);
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsCircle .ldgxListingFeatCellPetsYes {
+    background-image: url(../icons/circle/pets.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsFilled .ldgxListingFeatCellPetsYes {
+    background-image: url(../icons/filled/pets.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientColor .ldgxListingFeatCellPetsYes {
+    background-image: url(../icons/gradient-color/pets.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientGray .ldgxListingFeatCellPetsYes {
+    background-image: url(../icons/gradient-gray/pets.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsOutlined .ldgxListingFeatCellPetsYes {
+    background-image: url(../icons/outlined/pets.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredColor .ldgxListingFeatCellPetsYes {
+    background-image: url(../icons/squared-color/pets.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredGray .ldgxListingFeatCellPetsYes {
+    background-image: url(../icons/squared-gray/pets.png);
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsCircle .ldgxListingFeatCellPetsNo {
+    background-image: url(../icons/circle/pets-no.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsFilled .ldgxListingFeatCellPetsNo {
+    background-image: url(../icons/filled/pets-no.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientColor .ldgxListingFeatCellPetsNo {
+    background-image: url(../icons/gradient-color/pets-no.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientGray .ldgxListingFeatCellPetsNo {
+    background-image: url(../icons/gradient-gray/pets-no.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsOutlined .ldgxListingFeatCellPetsNo {
+    background-image: url(../icons/outlined/pets-no.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredColor .ldgxListingFeatCellPetsNo {
+    background-image: url(../icons/squared-color/pets-no.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredGray .ldgxListingFeatCellPetsNo {
+    background-image: url(../icons/squared-gray/pets-no.png);
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsCircle .ldgxListingFeatCellDaily {
+    background-image: url(../icons/circle/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsFilled .ldgxListingFeatCellDaily {
+    background-image: url(../icons/filled/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientColor .ldgxListingFeatCellDaily {
+    background-image: url(../icons/gradient-color/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientGray .ldgxListingFeatCellDaily {
+    background-image: url(../icons/gradient-gray/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsOutlined .ldgxListingFeatCellDaily {
+    background-image: url(../icons/outlined/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredColor .ldgxListingFeatCellDaily {
+    background-image: url(../icons/squared-color/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredGray .ldgxListingFeatCellDaily {
+    background-image: url(../icons/squared-gray/price.png);
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsCircle .ldgxListingFeatCellWeekly {
+    background-image: url(../icons/circle/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsFilled .ldgxListingFeatCellWeekly {
+    background-image: url(../icons/filled/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientColor .ldgxListingFeatCellWeekly {
+    background-image: url(../icons/gradient-color/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientGray .ldgxListingFeatCellWeekly {
+    background-image: url(../icons/gradient-gray/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsOutlined .ldgxListingFeatCellWeekly {
+    background-image: url(../icons/outlined/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredColor .ldgxListingFeatCellWeekly {
+    background-image: url(../icons/squared-color/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredGray .ldgxListingFeatCellWeekly {
+    background-image: url(../icons/squared-gray/price.png);
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsCircle .ldgxListingFeatCellMonthly {
+    background-image: url(../icons/circle/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsFilled .ldgxListingFeatCellMonthly {
+    background-image: url(../icons/filled/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientColor .ldgxListingFeatCellMonthly {
+    background-image: url(../icons/gradient-color/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsGradientGray .ldgxListingFeatCellMonthly {
+    background-image: url(../icons/gradient-gray/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsOutlined .ldgxListingFeatCellMonthly {
+    background-image: url(../icons/outlined/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredColor .ldgxListingFeatCellMonthly {
+    background-image: url(../icons/squared-color/price.png);
+}
+.ldgxInventoryTheme2 .ldgxListingFeatsIconsSquaredGray .ldgxListingFeatCellMonthly {
+    background-image: url(../icons/squared-gray/price.png);
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatCell {
+    margin: 0;
+    height: 33px;
+    line-height: 33px;
+    padding: 0;
+    background: transparent;
+    text-align: center;
+    vertical-align: middle;
+    font: 14px 'Open Sans', sans-serif;
+    color: #504740;
+    white-space: nowrap;
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatCellHeader {
+    height: auto;
+    line-height: initial;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatCellContent {
+    height: 33px;
+    line-height: 33px;
+}
+
+.ldgxInventoryTheme2 .ldgxPetsYes,
+.ldgxInventoryTheme2 .ldgxPetsNo
+{
+    height: 33px;
+    background: transparent no-repeat scroll 50% 50%;
+    background-size: 25px;
+}
+
+.ldgxInventoryTheme2 .ldgxPetsYesOld {
+    background-image: url(../icons/old/pets.gif);
+}
+.ldgxInventoryTheme2 .ldgxPetsNoOld {
+    background-image: url(../icons/old/pets-no.gif);
+}
+
+.ldgxInventoryTheme2 .ldgxPetsYesCircle {
+    background-image: url(../icons/circle/pets.png);
+}
+.ldgxInventoryTheme2 .ldgxPetsNoCircle {
+    background-image: url(../icons/circle/pets-no.png);
+}
+
+.ldgxInventoryTheme2 .ldgxPetsYesFilled {
+    background-image: url(../icons/filled/pets.png);
+}
+.ldgxInventoryTheme2 .ldgxPetsNoFilled {
+    background-image: url(../icons/filled/pets-no.png);
+}
+
+.ldgxInventoryTheme2 .ldgxPetsYesGradientColor {
+    background-image: url(../icons/gradient-color/pets.png);
+}
+.ldgxInventoryTheme2 .ldgxPetsNoGradientColor {
+    background-image: url(../icons/gradient-color/pets-no.png);
+}
+
+.ldgxInventoryTheme2 .ldgxPetsYesGradientGray {
+    background-image: url(../icons/gradient-gray/pets.png);
+}
+.ldgxInventoryTheme2 .ldgxPetsNoGradientGray {
+    background-image: url(../icons/gradient-gray/pets-no.png);
+}
+
+.ldgxInventoryTheme2 .ldgxPetsYesOutlined {
+    background-image: url(../icons/outlined/pets.png);
+}
+.ldgxInventoryTheme2 .ldgxPetsNoOutlined {
+    background-image: url(../icons/outlined/pets-no.png);
+}
+
+.ldgxInventoryTheme2 .ldgxPetsYesSquaredColor {
+    background-image: url(../icons/squared-color/pets.png);
+}
+.ldgxInventoryTheme2 .ldgxPetsNoSquaredColor {
+    background-image: url(../icons/squared-color/pets-no.png);
+}
+
+.ldgxInventoryTheme2 .ldgxPetsYesSquaredGray {
+    background-image: url(../icons/squared-gray/pets.png);
+}
+.ldgxInventoryTheme2 .ldgxPetsNoSquaredGray {
+    background-image: url(../icons/squared-gray/pets-no.png);
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatsIcons .ldgxListingFeatCellHeader,
+.ldgxInventoryTheme2 .ldgxListingFeatsIcons .ldgxListingFeatCellContent,
+.ldgxInventoryTheme2 .ldgxListingFeatsIcons .ldgxPetsYes,
+.ldgxInventoryTheme2 .ldgxListingFeatsIcons .ldgxPetsNo
+{
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatsIcons .ldgxPetsYes,
+.ldgxInventoryTheme2 .ldgxListingFeatsIcons .ldgxPetsNo
+{
+    background: transparent;
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatsIcons .ldgxPetsYes:after {
+    content: 'Yes';
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatsIcons .ldgxPetsNo:after {
+    content: 'No';
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatsIcons .ldgxPetsJa:after {
+    content: 'Ja';
+}
+
+.ldgxInventoryTheme2 .ldgxListingFeatsIcons .ldgxPetsNein:after {
+    content: 'Nein';
+}
+
+.ldgxInventoryTheme2 .ldgxListingButs {
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+
+.ldgxInventoryTheme2 .ldgxListingButsBlock1 {
+    display: inline;
+    margin: 0 20px;
+}
+
+.ldgxInventoryTheme2 .ldgxListingButsBlock2 {
+    display: inline;
+    white-space: nowrap;
+}
+
+.ldgxInventoryTheme2 .ldgxListingButs a {
+    display: inline-block;
+    margin: 7px 5px 3px 5px;
+}

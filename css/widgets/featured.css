@@ -1,0 +1,55 @@
+.lodgix-featured-properties {
+    width: auto;
+}
+
+.lodgix-featured-properties .lodgix-featured-listing {
+    width: 210px;
+    border: 1px solid #E0E0E0;
+    padding: 10px;
+    margin-bottom: 15px;
+    -moz-box-shadow: 3px 3px 5px #999;
+    -webkit-box-shadow: 3px 3px 5px #999;
+    box-shadow: 3px 3px 5px #999;
+    line-height: normal;
+    filter: progid: DXImageTransform.Microsoft.Shadow(color="#969696", Direction=135, Strength=3);
+    background: #fff url(../../images/feat-bg.png) repeat-x;
+    zoom: 1;
+}
+
+.lodgix-featured-properties .lodgix-featured-listing .imgset {
+    position: relative;
+}
+
+.lodgix-featured-properties .lodgix-featured-listing .imgset img {
+    height: 138px;
+    width: 210px;
+    border: 1px solid #BDBDBD;
+}
+
+.lodgix-featured-properties .lodgix-featured-listing .imgset .featured-flag {
+    background-image: url(../../images/featured-flag.png);
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 61px;
+    width: 61px;
+    border: none;
+}
+
+.lodgix-featured-properties .lodgix-featured-listing .address-link {
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 4px 0;
+    margin-bottom: 4px;
+    border-bottom: 1px dotted #666;
+}
+
+.lodgix-featured-properties .lodgix-featured-listing .featured-details span {
+    display: block;
+    padding-top: 4px;
+}
+
+.lodgix-featured-properties .lodgix-featured-category {
+    font-weight: bold;
+}

@@ -1,0 +1,526 @@
+.ldgxPropertySingle .ldgxPropertyBlock {
+    margin: 10px 0 20px 0;
+}
+
+.ldgxPropertySingle .ldgxPropertyBlock h2 {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
+
+.ldgxPropertySingle .ldgxPropertyBlockSlider h2 {
+    display: none;
+}
+
+.ldgxPropertyTabs .ldgxPropertyBlockDescription h2,
+.ldgxPropertyTabs .ldgxPropertyBlockDetails h2
+{
+    display: none;
+}
+
+.ldgxPropertyTabs .ldgxPropertyBlockPolicies h2 {
+    display: none;
+}
+
+.ldgxPropertyBlockCheckAvailability {
+    text-align: center;
+}
+
+.ldgxTabs {
+    display: none;
+}
+
+.ldgxMobileTab {
+    clear: both;
+    margin: 5px;
+    border: 1px solid #99B3CE;
+    border-radius: 6px;
+    padding: 0.8em 1.6em;
+    background: #E5ECF3;
+    color: #004185;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 1100px) {
+    .ldgxTabs {
+        display: block;
+    }
+    .ldgxMobileTab {
+        display: none;
+    }
+}
+
+.ldgxTabbedContentBox .ldgxTabbedContent .ldgxTabs {
+    margin: 0 !important;
+}
+
+.ldgxTabbedContent {
+    clear: both;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    font-size: 10pt;
+    font-family: Arial, sans-serif;
+    color: #575757;
+}
+
+.ldgxTabbedContent h2 {
+    margin: 0 0 0.5em 0;
+    font-size: 13pt;
+    font-family: Arial, sans-serif;
+    color: #575757;
+}
+
+.ldgxPropBadge {
+    margin-bottom: 20px;
+    border: 1px solid #d7d7d7;
+    padding: 10px 15px 5px 15px;
+    background: #F0F7FF;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.ldgxPropertySingle .ldgxPropBadge {
+    background: #F0F7EE;
+}
+
+.ldgxPropBadgeLine1 {
+    margin-bottom: 5px;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 5px;
+}
+
+.ldgxPropBadgeTitle {
+    float: left;
+    font-size: 16px;
+    color: #004185;
+}
+
+.ldgxPropertySingle .ldgxPropBadgeTitle {
+    color: #8DB339;
+}
+
+.ldgxPropBadgeRooms {
+    font-size: 12px;
+    color: #000;
+}
+
+.ldgxPropBadgeRoomsSeparator:before {
+    content: '|';
+}
+
+.ldgxPropBadgeRates {
+    float: right;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 640px) {
+    .ldgxPropBadgeTitle,
+    .ldgxPropBadgeRates {
+        float: none;
+    }
+}
+
+.ldgxPropBadgeIconsLeft {
+    float: left;
+}
+
+.ldgxPropBadgeIconsRight {
+    float: right;
+    white-space: nowrap;
+}
+
+.ldgxPropBadgeSeparator {
+    clear: both;
+}
+
+.ldgxBookNow {
+    background: none repeat scroll 0 0 #3ea1c2;
+    border-radius: 4px;
+    border: 1px solid #3ea1c2;
+    box-shadow: 0 0 2px #3ea1c2;
+    text-shadow: -1px -1px 0 #3ea1c2;
+    padding: 2px 5px;
+
+    text-align: center;
+    color: #ffffff;
+}
+
+.ldgxBookNowOfflineHidden {
+    display: none;
+}
+
+.ldgxBookNow a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.ldgxBookNow a:hover,
+.ldgxBookNow a:focus
+{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.ldgxCalendar {
+    text-align: center;
+}
+
+/* Make sure no other plugin or theme is hiding our iframes. For instance, Avada Wordpress theme does this. */
+.ldgxCalendar iframe {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.ldgxCalendarHelp {
+    text-align: left;
+}
+
+.ldgxCalendarHelpTitle {
+    margin: 1em 0;
+    font-size: 120%;
+    font-weight: bold;
+    color: #0299ff;
+}
+
+.ldgxCalendarHelpText {
+    margin: 1em 0;
+}
+
+.ldgxPropertyRates {
+    margin-bottom: 10px;
+}
+
+.ldgxPropertyRatesMerged {
+    overflow-x: auto;
+}
+
+.ldgxPropertyPoliciesTitle {
+    margin: 1em 0;
+    font-weight: bold;
+}
+
+.ldgxPropertyPoliciesText {
+    margin: 1em 0;
+}
+
+.ldgxPropertyPoliciesUpdated {
+    margin: 1em 0;
+    font-style: italic;
+}
+
+.ldgxAmenities {
+    margin: 0 !important;
+    width: 100%;
+}
+
+.ldgxAmenities:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.ldgxAmenities li {
+    float: left;
+    margin: 0 3px 5px 0;
+    width: 194px;
+    padding-left: 3px;
+    background: url(../../images/tick.png) no-repeat scroll left center transparent;
+    font-size: 11px;
+    line-height: 1.4em;
+    list-style-type: none;
+    text-indent: 15px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.merged_rates_table .lodgix_dates {
+    padding-left: 4px;
+}
+
+.merged_rates_table {
+    border: 1px solid #DCDCDC;
+    border-collapse: collapse;
+    border-radius: 10px 10px 10px 10px;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.merged_rates_table th {
+    background-color: #F1EFE1;
+    color: #555555;
+    font-size: 12px;
+    line-height: normal;
+    padding: 4px 3px;
+    text-align: center;
+    vertical-align: top;
+    border-left: 1px solid #DCD6B2;
+    text-transform: uppercase;
+}
+
+.merged_rates_table_green {
+    background-color: #F1EFE1 !important;
+}
+
+.merged_rates_table th b {
+    border-left: 1px solid #DCD6B2;
+    display: block;
+    padding: 8px 0;
+}
+
+.merged_rates_table th.merged_rates_table-0 b {
+    border-left-width: 0;
+}
+
+.merged_rates_table th.merged_rates_table-0 {
+    padding-left: 10px;
+    width: 130px;
+}
+
+.merged_rates_table td {
+    -moz-box-sizing: border-box;
+    border-left: 1px solid #DCDCDC;
+    color: #555555;
+    font-size: 12px;
+    line-height: normal;
+    padding: 4px 3px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.merged_rates_table td b,
+.merged_rates_table td strong {
+    color: #333333;
+}
+
+tr.merged_rates_table-odd td,
+tr.merged_rates_table-odd.merged_rates_table-divider td div,
+tr.merged_rates_table-even.merged_rates_table-divider td {
+    background-color: #FFFFFF;
+}
+
+tr.merged_rates_table-odd.merged_rates_table-divider td,
+tr.merged_rates_table-even td,
+tr.merged_rates_table-even.merged_rates_table-divider td div {
+    background-color: #F4F4F4;
+}
+
+.merged_rates_table .merged_rates_table-0 {
+    border-left-width: 0;
+    text-align: left;
+    width: 130px;
+}
+
+.merged_rates_table-topright,
+.merged_rates_table-topleft {
+    background-color: #FFFFFF;
+    display: block;
+    height: 12px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 12px;
+}
+
+.merged_rates_table-topright span,
+.merged_rates_table-topleft span {
+    background-color: #F1EFE1;
+    border: 1px solid #DCDCDC;
+    display: block;
+    height: 12px;
+    width: 12px;
+}
+
+.merged_rates_table-topright {
+    left: auto;
+    right: -1px;
+}
+
+.merged_rates_table-topright span {
+    border-radius: 0 6px 0 0;
+    border-width: 1px 1px 0 0;
+}
+
+.merged_rates_table-topleft span {
+    border-radius: 6px 0 0 0;
+    border-width: 1px 0 0 1px;
+}
+
+.ff .merged_rates_table-topright,
+.ie .merged_rates_table-topright {
+    right: 0;
+}
+
+.merged_rates_table p {
+    color: #888888;
+    display: block;
+    font-size: 13px;
+    margin: 0;
+    padding: 4px 0 0;
+}
+
+.merged_rates_table small {
+    color: #888888;
+    display: inline;
+    font-size: 11px;
+    margin: 0;
+    padding: 4px 0 0;
+}
+
+.merged_rates_table hr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #FFFFFF;
+    border-image: none;
+    border: 0 none -moz-use-text-color;
+    border-bottom: 1px dashed #DCDCDC;
+    clear: both;
+    color: #FFFFFF;
+    margin: 6px 0;
+}
+
+td.merged_rates_table-span {
+    border-left-width: 0;
+    text-align: left;
+}
+
+.merged_rates_table-divider div {
+    border-top: 1px solid #DCDCDC;
+    margin-top: 8px;
+    padding-top: 8px;
+}
+
+.merged_rates_table-divider td {
+    border-left-width: 0;
+    padding: 0;
+}
+
+.merged_rates_table-divider.is-first div {
+    margin-top: 0;
+}
+
+.merged_rates_table-divider.is-last div {
+    border-top-width: 0;
+    margin-top: 0;
+}
+
+.lodgix_centered {
+    text-align: center !important;
+}
+
+.lodgix_left {
+    text-align: left !important;
+}
+
+.ldgxPropertyInfoDesc {
+    margin-bottom: 1.5em;
+}
+
+.ldgxReviewBlock {
+    margin: 1.5em 0;
+    border-bottom: 1px solid #eee;
+    padding: 0 0 1.4em 0;
+    line-height: normal;
+}
+
+.ldgxReviewIcon {
+    display: block;
+    float: left;
+    margin: 0 0.5em 0 0;
+}
+
+.ldgxReviewTitle {
+    display: block;
+    margin: 0 0 0.5em 0;
+    font-size: 110%;
+    font-weight: bold;
+    color: #000;
+}
+
+.ldgxReviewTitle:before {
+    content: '\201C';
+}
+
+.ldgxReviewTitle:after {
+    content: '\201D';
+}
+
+.ldgxReviewDateBlock {
+    color: #999;
+}
+
+.ldgxStar {
+    font-style: normal;
+    color: #31BFED;
+}
+
+.ldgxStar:before {
+    content: '\2605';
+}
+
+.ldgxStarGrey {
+    color: lightgrey;
+}
+
+.ldgxReviewName {
+    font-weight: bold;
+    color: #555;
+}
+
+.ldgxReviewTextBlock {
+    clear: left;
+    margin: 1em 0 0 0;
+    line-height: 1.8em;
+}
+
+.ldgxReviewDateBlock {
+    margin: 0.5em 0 0 0;
+}
+
+.ldgxSliderWrapper {
+    overflow: auto;
+    margin: 20px auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.ldgxSlider {
+    width: 100%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.ldgxSlider .rsGCaption {
+    left: 50%;
+    transform: translate(-50%, 0);
+    font-weight: bold;
+}
+
+.ldgxSlider .rsGCaption:empty {
+    display: none;
+}
+
+.ldgxSlider .rsThumb {
+    border: 1px solid #eee;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.ldgxMapCanvas {
+    width: 100%;
+    height: 300px;
+    -webkit-transform: none !important;
+}
+
+.ldgxPropertyTabs .ldgxMapCanvas {
+    height: 500px;
+}
+
+.ldgxMapCanvas img {
+    max-width: none;
+}
